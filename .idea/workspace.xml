@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b2a58cd-a49a-4f22-8397-3d71f234e279" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="9b2a58cd-a49a-4f22-8397-3d71f234e279" name="Changes" comment="Tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shopping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ShopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +89,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopTest.shopTestAAACC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="shopTestAAACC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShopTest.shopTestAAB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shopping" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,11 +113,13 @@
       <item itemvalue="Application.Program" />
       <item itemvalue="JUnit.ShopTest" />
       <item itemvalue="JUnit.ShopTest (1)" />
+      <item itemvalue="JUnit.ShopTest.shopTestAAACC" />
       <item itemvalue="JUnit.ShopTest.shopTestAAB" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ShopTest" />
+        <item itemvalue="JUnit.ShopTest.shopTestAAACC" />
         <item itemvalue="JUnit.ShopTest.shopTestAAB" />
         <item itemvalue="JUnit.ShopTest (1)" />
         <item itemvalue="Application.Program" />
@@ -139,11 +142,56 @@
       <option name="project" value="LOCAL" />
       <updated>1691431673095</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Project setup for test">
+      <created>1691432482316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691432482316</updated>
+    </task>
+    <task id="LOCAL-00003" summary="use consts instead of magic strings and numbers">
+      <created>1691432502909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691432502909</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tests">
+      <created>1691432514406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691432514406</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Project setup for test" />
+    <MESSAGE value="use consts instead of magic strings and numbers" />
+    <MESSAGE value="Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RuleAAC.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RuleAAC.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RuleAAC.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

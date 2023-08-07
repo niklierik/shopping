@@ -29,7 +29,7 @@ public class ShopTest {
 
     @Test
     public void shopTestAAACC() {
-        Assertions.assertEquals(3 * Product.A_PRICE + Product.C_PRICE * 1.5, shop.shopIds("A", "A", "C", "C"));
+        Assertions.assertEquals(2 * Product.A_PRICE + Product.C_PRICE * 1.5, shop.shopIds("A", "A", "C", "C"));
     }
 
     @Test
