@@ -30,12 +30,13 @@ public class RuleDDD extends Rule {
         int numberOfD = 0;
         int freeD = 0;
         for (Product product : products) {
+            if (numberOfD == THRESHOLD) {
+                numberOfD = 0;
+                freeD++;
+                continue;
+            }
             if (PRODUCT_ID.equals(product.name())) {
                 numberOfD++;
-                if (numberOfD == THRESHOLD) {
-                    numberOfD = 0;
-                    freeD++;
-                }
             }
         }
         var discount = getDiscountAmount() * freeD;
