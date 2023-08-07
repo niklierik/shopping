@@ -7,11 +7,11 @@ public class Shop {
 
     public static Shop initShop() {
         var shop = new Shop();
-        shop.addProduct(new Product("A", 55));
-        shop.addProduct(new Product("B", 20));
-        shop.addProduct(new Product("C", 60));
-        shop.addProduct(new Product("D", 10));
-        shop.addProduct(new Product("E", 45));
+        shop.addProduct(new Product(Product.A_ID, Product.A_PRICE));
+        shop.addProduct(new Product(Product.B_ID, Product.B_PRICE));
+        shop.addProduct(new Product(Product.C_ID, Product.C_PRICE));
+        shop.addProduct(new Product(Product.D_ID, Product.D_PRICE));
+        shop.addProduct(new Product(Product.E_ID, Product.E_PRICE));
         shop.addRule(new RuleAAC(shop));
         shop.addRule(new RuleDDD(shop));
         shop.addRule(new RuleED());
